@@ -1,0 +1,40 @@
+#navbar{
+    height: 80px;
+    background-color: #1C2B35;
+    padding: 0 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    gap: 32px;
+}
+
+.nav-items a{
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.hamburger-button{
+    display: none;
+}
+
+.lines{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .nav-items{
+        display: none
+    }
+
+    .hamburger-button{
+        display: block;
+    }
+}
