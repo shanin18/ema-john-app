@@ -5,18 +5,21 @@ import "./SingleCard.css";
 
 
 const SingleCard = (props) => {
-    const{img, name, price, ratings, seller} = props.card
-    console.log(props.card)
+    const{img, name, price, ratings, seller} = props.card;
+
+    const addToCart = props.addToCart;
+
+    // console.log(props.card)
     return (
         <div className='card'>
             <div className='card-info'>
-                <img src={img} alt="" />
+                <img src={img ? img : "no Image found"} alt="" />
                 <h5>{name}</h5>
-                <p>Price: ${}</p>
-                <small>Manufacturer : Adidas</small>
-                <small>Rating: 3 star</small>
+                <p>Price: ${price}</p>
+                <small>Manufacturer : {seller}</small>
+                <small>Rating: {ratings}</small>
             </div>
-            <button>Add to Cart <FontAwesomeIcon icon={faShoppingCart} /></button>
+            <button onClick={()=> addToCart(props.card)}>Add to Cart <FontAwesomeIcon icon={faShoppingCart} /></button>
         </div>
     );
 };

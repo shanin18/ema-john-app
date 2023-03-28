@@ -1,0 +1,40 @@
+.cart{
+    padding: 25px;
+    background-color: rgba(255, 153, 0, 0.3);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.cart h4{
+    font-size: 25px;
+    text-align: center;
+}
+
+.cart p{
+    font-size: 17px;
+}
+
+.cart h5{
+    font-size: 21px;
+}
+
+.btn-delete,
+.btn-review{
+    border-radius: 4px;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 17px;
+    width: 232px;
+    cursor: pointer;
+}
+
+.btn-delete{
+    background: #FF3030;
+}
+
+.btn-review{
+    margin-top: 16px;
+    background: #FF9900;
+}

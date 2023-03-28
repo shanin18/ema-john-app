@@ -11,44 +11,6 @@
     margin-top: 118px;
 }
 
-.summery{
-    padding: 20px;
-    background-color: rgba(255, 153, 0, 0.3);
-}
-
-.summery h4{
-    font-size: 25px;
-    text-align: center;
-}
-
-.summery p{
-    font-size: 17px;
-}
-
-.summery h5{
-    font-size: 21px;
-}
-
-.btn-delete,
-.btn-review{
-    border-radius: 4px;
-    color: white;
-    border: none;
-    padding: 15px;
-    font-size: 17px;
-    width: 232px;
-    cursor: pointer;
-}
-
-.btn-delete{
-    background: #FF3030;
-}
-
-.btn-review{
-    margin-top: 16px;
-    background: #FF9900;
-}
-
 
 @media only screen and (max-width: 1400px) {
     .shop-container{
