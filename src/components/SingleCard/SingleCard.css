@@ -1,0 +1,45 @@
+.card{
+    border-radius: 10px;
+    border: 1px solid gray;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-info{
+    padding: 20px 20px 40px;
+}
+
+.card-info img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.card-info h5{
+    font-size: 21px;
+}
+
+.card-info p{
+    font-size: 17px;
+}
+
+.card-info small{
+    display: block;
+    padding-bottom: 20px;
+}
+
+.card button{
+    height: 48px;
+    background-color: rgba(255, 153, 0, 0.3);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.card button:hover{
+    background-color: rgba(255, 153, 0, 0.507);
+}

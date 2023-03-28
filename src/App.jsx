@@ -1,4 +1,5 @@
 import './App.css'
+import Card from './components/CardContainer/CardContainer'
 import Header from './components/Header/Header'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
+      <Card></Card>
     </div>
   )
 }
