@@ -1,0 +1,42 @@
+.product{
+    display: flex;
+    align-items:center;
+    border: 1px solid grey;
+    justify-content: space-between;
+    padding-right: 25px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.p-details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.p-img{
+    width:100px;
+    border-radius:10px;
+}
+.p-name{
+    font-weight:400;
+    font-size:21px;
+    line-height:25px
+}
+.p-price,
+.p-quantity{
+    font-size:15px;
+    line-height:18px
+}
+
+.btn-remove{
+    border: none;
+    border-radius: 50%;
+    background: rgba(235, 87, 87, 0.3);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.icon-remove{
+    font-size: 27px;
+    color: #EB5757;
+}

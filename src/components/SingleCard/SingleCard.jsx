@@ -6,10 +6,8 @@ import "./SingleCard.css";
 
 const SingleCard = (props) => {
     const{img, name, price, ratings, seller} = props.card;
-
     const addToCart = props.addToCart;
-
-    // console.log(props.card)
+    
     return (
         <div className='card'>
             <div className='card-info'>

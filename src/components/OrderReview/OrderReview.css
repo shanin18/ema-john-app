@@ -1,0 +1,6 @@
+.item-container{
+    padding: 50px 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
