@@ -1,4 +1,5 @@
-####Ema-John
+
+<h1>Ema-John</h1>
 
 Ema-John is an e-commerce web application built with React.js. It allows users to browse and purchase a wide range of products. 
 
